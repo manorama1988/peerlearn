@@ -1,0 +1,32 @@
+.image-box-outter{
+    /*width:1000px; */
+    
+    background-color:yellowgreen;
+
+    .image-box{
+        /*width:300px; */
+        width:300px;
+        display:inline-block;
+        margin-left:100px;
+        border:2px solid red;
+        margin-bottom:30px;
+        .image-box-text{
+            
+            display:flex;
+            .image-box-text-title{
+                font-family:  'Questrial',sans-serif; 
+                font-size:76px;
+                font-weight:700;
+                
+                color:#000000; 
+            }
+            .image-box-text-para{
+                font-family:  'Questrial',sans-serif; 
+                font-size:26px;
+                color:#000000;
+                padding: 45px 26px;
+            }
+        }
+       
+    }
+}
